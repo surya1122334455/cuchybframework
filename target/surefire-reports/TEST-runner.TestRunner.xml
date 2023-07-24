@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="381.938" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre-1.8\bin"/>
+    <property name="java.vm.version" value="25.371-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\JAVA\Selenium Workspace\TutoNinja"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\JAVA\Selenium Workspace\TutoNinja"/>
+    <property name="java.runtime.version" value="1.8.0_371-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre-1.8\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\harini\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Drivers\apache-maven-3.8.7\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Java\jdk-11.0.18\bin;C:\Java\jdk-17.0.7\bin;C:\Java\jdk1.8.0_202\bin;C:\Drivers\apache-maven-3.8.7\bin;;."/>
+    <property name="maven.conf" value="C:\Drivers\apache-maven-3.8.7/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Drivers\apache-maven-3.8.7\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\harini"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="harini"/>
+    <property name="java.class.path" value="C:\Drivers\apache-maven-3.8.7\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre-1.8"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_371"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre-1.8\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre-1.8\lib\resources.jar;C:\Program Files\Java\jre-1.8\lib\rt.jar;C:\Program Files\Java\jre-1.8\lib\jsse.jar;C:\Program Files\Java\jre-1.8\lib\jce.jar;C:\Program Files\Java\jre-1.8\lib\charsets.jar;C:\Program Files\Java\jre-1.8\lib\jfr.jar;C:\Program Files\Java\jre-1.8\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Drivers\apache-maven-3.8.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Login with valid credentials #1" classname="Login Functionality" time="46.828"/>
+  <testcase name="Login with valid credentials #2" classname="Login Functionality" time="27.781"/>
+  <testcase name="Login with valid credentials #3" classname="Login Functionality" time="24.872"/>
+  <testcase name="Login with invalid credentials" classname="Login Functionality" time="26.313"/>
+  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="24.306"/>
+  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="24.658"/>
+  <testcase name="Login without providing any credentials" classname="Login Functionality" time="24.623"/>
+  <testcase name="User creates an account only with mandatory fields" classname="Registertion functionality" time="25.659"/>
+  <testcase name="User creates an account with all fields" classname="Registertion functionality" time="25.942"/>
+  <testcase name="User creates with dupicate email/account" classname="Registertion functionality" time="26.999"/>
+  <testcase name="User creates an account without filling any details" classname="Registertion functionality" time="23.244"/>
+  <testcase name="User searches for valid Product" classname="Search Functionality" time="28.076">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[
+Scenario: User searches for valid Product                            &amp#27;[90m# src/test/resources/features/Search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens the application&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m in the search field&amp#27;[0m            &amp#27;[90m# stepdefinitions.Search.user_enters_valid_product_in_the_search_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser should get valid product displayed in the search results&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_should_get_valid_product_displayed_in_the_search_results()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_the_search_results(Search.java:49)
+	at âœ½.user should get valid product displayed in the search results(file:///D:/JAVA/Selenium%20Workspace/TutoNinja/src/test/resources/features/Search.feature:7)
+&amp#27;[0m
+
+    Embedding User_searches_for_valid_Product [image/png 74647 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jul 24, 2023 11:18:43 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Jul 24, 2023 11:18:45 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The version of firefox cannot be detected. Trying with latest driver version
+]]></system-err>
+  </testcase>
+  <testcase name="User searches for invalid Product" classname="Search Functionality" time="22.943"/>
+  <testcase name="User searches with entering any product" classname="Search Functionality" time="23.375"/>
+</testsuite>

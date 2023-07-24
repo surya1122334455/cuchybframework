@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 381.938 sec <<< FAILURE! - in runner.TestRunner
+User searches for valid Product(Search Functionality)  Time elapsed: 28.076 sec  <<< FAILURE!
+java.lang.AssertionError
+
